@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MediaStuff.v2.MainPage"
+             xmlns:controls="clr-namespace:FormsVideoLibrary"
+             BackgroundColor="Black"
+             NavigationPage.HasNavigationBar="true">
+    <StackLayout>
+        <controls:VideoPlayer Grid.Row="0"
+                              x:Name="mediaPlayer"
+                              Source="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+                              SizeChanged="mediaPlayer_SizeChanged"
+                              AreTransportControlsEnabled="True"
+                              AutoPlay="True"
+                              HeightRequest="300"
+                              />
+        <Button Text="Hello" x:Name="Test"/>
+    </StackLayout>
+</ContentPage>

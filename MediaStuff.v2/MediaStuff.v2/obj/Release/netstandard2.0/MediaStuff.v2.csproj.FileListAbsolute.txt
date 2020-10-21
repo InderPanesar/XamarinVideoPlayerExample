@@ -1,0 +1,15 @@
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/bin/Release/netstandard2.0/MediaStuff.v2.deps.json
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/bin/Release/netstandard2.0/MediaStuff.v2.dll
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/bin/Release/netstandard2.0/ref/MediaStuff.v2.dll
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/bin/Release/netstandard2.0/MediaStuff.v2.pdb
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/obj/Release/netstandard2.0/MainPage.xaml.g.cs
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/obj/Release/netstandard2.0/MyPage.xaml.g.cs
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/obj/Release/netstandard2.0/MediaStuff.v2.AssemblyInfoInputs.cache
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/obj/Release/netstandard2.0/MediaStuff.v2.AssemblyInfo.cs
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/obj/Release/netstandard2.0/MediaStuff.v2.csproj.CoreCompileInputs.cache
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/obj/Release/netstandard2.0/XamlC.stamp
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/obj/Release/netstandard2.0/MediaStuff.v2.dll
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/obj/Release/netstandard2.0/ref/MediaStuff.v2.dll
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/obj/Release/netstandard2.0/MediaStuff.v2.pdb
+/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2/obj/Release/netstandard2.0/MediaStuff.v2.csprojAssemblyReference.cache
