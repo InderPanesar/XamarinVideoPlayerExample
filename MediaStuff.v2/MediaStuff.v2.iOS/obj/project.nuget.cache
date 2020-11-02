@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "a4ZIDFnlZanVmehXqTS6BZ9C+1pSAFK1Ken4yE1Hyyh4kO3QxSnWdk/iG/tofpuLS/hlSgYUUmCGcMpmNJfx3g==",
+  "dgSpecHash": "xyx3c5eGiff21lnBBseNtR1Dx/y3Dg8CIj9hWB/BDzPKmOKzGSzwFZi9JGvjSg5RuNt5k58BjrSvkbViPQPezg==",
   "success": true,
   "projectFilePath": "/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.iOS/MediaStuff.v2.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/inderpanesar/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/inderpanesar/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "/Users/inderpanesar/.nuget/packages/xamarin.forms/4.8.0.1560/xamarin.forms.4.8.0.1560.nupkg.sha512"
   ],
   "logs": []
 }

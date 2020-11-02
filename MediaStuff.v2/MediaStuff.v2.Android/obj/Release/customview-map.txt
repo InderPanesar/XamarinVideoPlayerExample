@@ -18,6 +18,7 @@ android.support.v7.widget.RecyclerView;/Users/inderpanesar/Projects/MediaStuff.v
 android.support.v7.widget.Toolbar;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/45/jl/res/layout/rootlayout.xml
 android.support.v7.widget.Toolbar;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/45/jl/res/layout/shellcontent.xml
 android.support.v7.widget.Toolbar;obj/Release/res/layout/toolbar.xml
+attr;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/45/jl/res/values/attrs.xml
 attr;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/5/jl/res/values/values.xml
 background;obj/Release/res/mipmap-anydpi-v26/icon.xml
 background;obj/Release/res/mipmap-anydpi-v26/icon_round.xml
@@ -29,6 +30,7 @@ com.google.android.exoplayer2.ui.DefaultTimeBar;/Users/inderpanesar/Projects/Med
 com.google.android.exoplayer2.ui.DefaultTimeBar;obj/Release/res/layout/exo_playback_control_view.xml
 com.google.android.exoplayer2.ui.SubtitleView;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/5/jl/res/layout/exo_simple_player_view.xml
 com.google.android.exoplayer2.ui.TrackSelectionView;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/5/jl/res/layout/exo_track_selection_dialog.xml
+declare-styleable;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/45/jl/res/values/attrs.xml
 declare-styleable;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/5/jl/res/values/values.xml
 dimen;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/5/jl/res/values/values.xml
 drawable;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/5/jl/res/values/values.xml
@@ -71,6 +73,8 @@ path;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Releas
 path;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/5/jl/res/drawable-anydpi-v21/exo_icon_stop.xml
 paths;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/44/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 ProgressBar;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/5/jl/res/layout/exo_simple_player_view.xml
+resources;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/45/jl/res/values/attrs.xml
+resources;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/45/jl/res/values/strings.xml
 resources;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/45/jl/res/values/styles.xml
 resources;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/5/jl/res/values/values.xml
 resources;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/5/jl/res/values-af/values-af.xml
@@ -160,6 +164,7 @@ set;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release
 set;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/45/jl/res/anim/enterfromright.xml
 set;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/45/jl/res/anim/exittoleft.xml
 set;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/45/jl/res/anim/exittoright.xml
+string;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/45/jl/res/values/strings.xml
 string;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/5/jl/res/values/values.xml
 string;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/5/jl/res/values-af/values-af.xml
 string;/Users/inderpanesar/Projects/MediaStuff.v2/MediaStuff.v2.Android/obj/Release/lp/5/jl/res/values-am/values-am.xml

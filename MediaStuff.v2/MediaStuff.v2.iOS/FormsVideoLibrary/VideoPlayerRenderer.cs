@@ -205,5 +205,7 @@ namespace FormsVideoLibrary.iOS
             player.Pause();
             player.Seek(new CMTime(0, 1));
         }
+
+        
     }
 }

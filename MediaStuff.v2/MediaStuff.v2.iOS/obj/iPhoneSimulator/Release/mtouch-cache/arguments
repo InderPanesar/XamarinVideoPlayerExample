@@ -1,5 +1,5 @@
-# Version: 14.0.0.0 (xcode12): 7ec3751a1
-/Library/Frameworks/Xamarin.iOS.framework/Versions/14.0.0.0/lib/mtouch/mtouch.exe \
+# Version: 14.2.0.12 (xcode12.1): e0ce49680
+/Library/Frameworks/Xamarin.iOS.framework/Versions/14.2.0.12/lib/mtouch/mtouch.exe \
 	--sgen-conc \
 	'/target-framework:Xamarin.iOS,Version=v1.0' \
 	--http-message-handler=NSUrlSessionHandler \

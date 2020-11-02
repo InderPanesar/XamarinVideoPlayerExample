@@ -18,12 +18,9 @@ using Java.Lang;
 using Android.Text;
 using Android.Support.V4.Content;
 using Android.Content.PM;
-using Android.Util;
-using Android.OS;
-using Android.Preferences;
-using Xamarin.Essentials;
 
-[assembly: ExportRenderer(typeof(FormsVideoLibrary.VideoPlayer),
+
+[assembly: ExportRenderer(typeof(VideoPlayer),
                           typeof(MediaStuff.v2.Droid.FormsVideoLibrary.VideoPlayerRenderer))]
 namespace MediaStuff.v2.Droid.FormsVideoLibrary
 {
@@ -37,10 +34,10 @@ namespace MediaStuff.v2.Droid.FormsVideoLibrary
         static private Activity _context;
         ImageView fullscreenView;
 
-        private bool isFullscreen = false;
+        public static bool isFullscreen = false;
+        public static bool isBackPressed = false;
 
         ScreenOrientation fullscreenOrientation;
-        ISharedPreferences prefs;
 
         DefaultHttpDataSourceFactory defaultHttpDataSourceFactory;
         DefaultDataSourceFactory defaultDataSourceFactory;
@@ -53,7 +50,7 @@ namespace MediaStuff.v2.Droid.FormsVideoLibrary
             SystemUiFlags.LayoutStable |
             SystemUiFlags.ImmersiveSticky;
 
- 
+        
         public static void Init(Activity context)
         {
             _context = context;
@@ -66,9 +63,6 @@ namespace MediaStuff.v2.Droid.FormsVideoLibrary
         protected override void OnElementChanged(ElementChangedEventArgs<VideoPlayer> args)
         {
             base.OnElementChanged(args);
-
-            prefs = PreferenceManager.GetDefaultSharedPreferences(Context);
-
 
             if (_player == null)
             {
@@ -91,20 +85,18 @@ namespace MediaStuff.v2.Droid.FormsVideoLibrary
             {
                 if (isFullscreen)
                 {
+                    _playerView.SystemUiVisibility = (StatusBarVisibility)SystemUiFlags.Visible;
                     setMiniPlayer();
                     ((IVideoPlayerController)Element).Fullscreen = false;
-                    ISharedPreferencesEditor editor = prefs.Edit();
-                    editor.PutBoolean("isFullscreen", false);
-                    editor.Apply();
+
 
                 }
                 else
                 {
+                    _playerView.SystemUiVisibility = (StatusBarVisibility)uiFullScreenOptions;
                     setFullScreenPlayer();
                     ((IVideoPlayerController)Element).Fullscreen = true;
-                    ISharedPreferencesEditor editor = prefs.Edit();
-                    editor.PutBoolean("isFullscreen", true);
-                    editor.Apply();
+
                 }
             };
         }
@@ -127,23 +119,7 @@ namespace MediaStuff.v2.Droid.FormsVideoLibrary
             if (_context != null)
             {
 
-                /*
-                    ============================================================================================================
-                    PORTRAIT IMPLEMENTATION: [LEAVING HERE IF REQUIRED - FOR VIDEOS]
-                    [Check video resolution and if it's portrait set fullscreenOrientation to portrait and carry out code below]
-                    ============================================================================================================
-                    int height = (int)(Resources.DisplayMetrics.HeightPixels / Resources.DisplayMetrics.Density);
-                    bool hasMenuKey = ViewConfiguration.Get(Context).HasPermanentMenuKey;
-                    int resourceId = Resources.GetIdentifier("navigation_bar_height", "dimen", "android");
-                    int navbarheight = 0;
-                    if (resourceId > 0 && !hasMenuKey)
-                    {
-                        navbarheight = (int) (Resources.GetDimensionPixelSize(resourceId) / Resources.DisplayMetrics.Density);
-                    }
-
-                    Element.HeightRequest = height+navbarheight;
-                    =============================================================================================================
-                */
+ 
 
                 _context.RequestedOrientation = fullscreenOrientation;
                 Element.HeightRequest = Xamarin.Forms.Application.Current.MainPage.Width;
@@ -193,7 +169,7 @@ namespace MediaStuff.v2.Droid.FormsVideoLibrary
 
                 if (!System.String.IsNullOrWhiteSpace(filename))
                 {
-                    //TODO: Implement File Input
+                    //TODO: Implement File Input [NOT SURE IF NEEDED THOUGH]
                 }
             }
             else if (Element.Source is ResourceVideoSource)
@@ -269,7 +245,6 @@ namespace MediaStuff.v2.Droid.FormsVideoLibrary
             _player.Release();
         }
 
-
         void OnUpdateStatus(object sender, EventArgs args)
         {
             if (_player != null && _playerView != null)
@@ -290,14 +265,9 @@ namespace MediaStuff.v2.Droid.FormsVideoLibrary
                     }
                 }
 
-                if (prefs.GetBoolean("backHit", true))
+                if (isBackPressed)
                 {
-                    ISharedPreferencesEditor editor = prefs.Edit();
-                    editor.PutBoolean("backHit", false);
-                    editor.PutBoolean("isFullscreen", false);
-                    ((IVideoPlayerController)Element).Fullscreen = false;
-                    editor.Apply();
-
+                    isBackPressed = false;
                     setMiniPlayer();
                 }
             }
@@ -344,7 +314,7 @@ namespace MediaStuff.v2.Droid.FormsVideoLibrary
         }
 
         public void OnLoadingChanged(bool isLoading)
-        {
+        { 
         }
 
         public void OnPlaybackParametersChanged(PlaybackParameters playbackParameters)

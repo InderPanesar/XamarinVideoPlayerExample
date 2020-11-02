@@ -1,19 +1,23 @@
 ﻿<Properties StartupConfiguration="{0DF58F41-6A78-46FD-911F-E4B0444249CE}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MediaStuff.v2.Android/FormsVideoLibrary/VideoPlayerRenderer.cs">
     <Files>
-      <File FileName="MediaStuff.v2.Android/FormsVideoLibrary/VideoPlayerRenderer.cs" Line="298" Column="74" />
+      <File FileName="MediaStuff.v2.Android/FormsVideoLibrary/VideoPlayerRenderer.cs" Line="204" Column="52" />
       <File FileName="MediaStuff.v2.Android/MainActivity.cs" />
       <File FileName="MediaStuff.v2.Android/FormsVideoLibrary/VideoPicker.cs" />
       <File FileName="MediaStuff.v2.iOS/Main.cs" />
       <File FileName="MediaStuff.v2.iOS/AppDelegate.cs" />
       <File FileName="MediaStuff.v2/MyPage.xaml" />
-      <File FileName="MediaStuff.v2/MainPage.xaml" />
+      <File FileName="MediaStuff.v2/MainPage.xaml" Line="13" Column="48" />
       <File FileName="MediaStuff.v2/MyPage.xaml.cs" />
       <File FileName="MediaStuff.v2/MainPage.xaml.cs" />
       <File FileName="MediaStuff.v2.Android/Resources/layout/Tabbar.xml" />
       <File FileName="MediaStuff.v2.Android/Resources/layout/Toolbar.xml" />
       <File FileName="MediaStuff.v2/FormsVideoLibrary/IVideoPlayerController.cs" />
       <File FileName="MediaStuff.v2/FormsVideoLibrary/VideoPlayer.cs" />
+      <File FileName="MediaStuff.v2.iOS/FormsVideoLibrary/VideoPlayerRenderer.cs" />
+      <File FileName="MediaStuff.v2/FormsVideoLibrary/VideoSource.cs" />
+      <File FileName="MediaStuff.v2/FormsVideoLibrary/VideoSourceConverter.cs" />
+      <File FileName="MediaStuff.v2.iOS/Info.plist" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,15 +27,15 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="FormsVideoLibrary" expanded="True" />
-              <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
-              <Node name="MyPage.xaml" expanded="True" />
             </Node>
-            <Node name="MediaStuff.v2.Android" expanded="True" selected="True">
+            <Node name="MediaStuff.v2.Android" expanded="True">
+              <Node name="FormsVideoLibrary" expanded="True">
+                <Node name="VideoPlayerRenderer.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="MediaStuff.v2.iOS" expanded="True">
               <Node name="FormsVideoLibrary" expanded="True" />
             </Node>
-            <Node name="MediaStuff.v2.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

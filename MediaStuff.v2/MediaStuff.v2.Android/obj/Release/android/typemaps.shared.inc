@@ -19,20 +19,20 @@
 	.section	.rodata.map_aname.3,"aMS",@progbits,1
 	.type	.L.map_aname.3, @object
 .L.map_aname.3:
-	.asciz	"ExoPlayer.Dash"
+	.asciz	"FormsViewGroup"
 	.size	.L.map_aname.3, 15
 
 	.section	.rodata.map_aname.4,"aMS",@progbits,1
 	.type	.L.map_aname.4, @object
 .L.map_aname.4:
-	.asciz	"Xamarin.Android.Support.Loader"
-	.size	.L.map_aname.4, 31
+	.asciz	"ExoPlayer.Dash"
+	.size	.L.map_aname.4, 15
 
 	.section	.rodata.map_aname.5,"aMS",@progbits,1
 	.type	.L.map_aname.5, @object
 .L.map_aname.5:
-	.asciz	"Xamarin.Android.Support.v7.RecyclerView"
-	.size	.L.map_aname.5, 40
+	.asciz	"Xamarin.Android.Support.Loader"
+	.size	.L.map_aname.5, 31
 
 	.section	.rodata.map_aname.6,"aMS",@progbits,1
 	.type	.L.map_aname.6, @object
@@ -43,26 +43,26 @@
 	.section	.rodata.map_aname.7,"aMS",@progbits,1
 	.type	.L.map_aname.7, @object
 .L.map_aname.7:
-	.asciz	"Xamarin.Forms.Platform.Android"
-	.size	.L.map_aname.7, 31
+	.asciz	"Xamarin.Android.Support.v7.RecyclerView"
+	.size	.L.map_aname.7, 40
 
 	.section	.rodata.map_aname.8,"aMS",@progbits,1
 	.type	.L.map_aname.8, @object
 .L.map_aname.8:
-	.asciz	"Xamarin.Android.Arch.Lifecycle.LiveData.Core"
-	.size	.L.map_aname.8, 45
+	.asciz	"MediaStuff.v2.Android"
+	.size	.L.map_aname.8, 22
 
 	.section	.rodata.map_aname.9,"aMS",@progbits,1
 	.type	.L.map_aname.9, @object
 .L.map_aname.9:
-	.asciz	"Xamarin.Android.Support.Media.Compat"
-	.size	.L.map_aname.9, 37
+	.asciz	"Xamarin.Android.Arch.Lifecycle.LiveData.Core"
+	.size	.L.map_aname.9, 45
 
 	.section	.rodata.map_aname.10,"aMS",@progbits,1
 	.type	.L.map_aname.10, @object
 .L.map_aname.10:
-	.asciz	"FormsViewGroup"
-	.size	.L.map_aname.10, 15
+	.asciz	"Xamarin.Android.Support.Media.Compat"
+	.size	.L.map_aname.10, 37
 
 	.section	.rodata.map_aname.11,"aMS",@progbits,1
 	.type	.L.map_aname.11, @object
@@ -109,20 +109,20 @@
 	.section	.rodata.map_aname.18,"aMS",@progbits,1
 	.type	.L.map_aname.18, @object
 .L.map_aname.18:
-	.asciz	"MediaStuff.v2.Android"
-	.size	.L.map_aname.18, 22
+	.asciz	"Xamarin.Android.Support.Compat"
+	.size	.L.map_aname.18, 31
 
 	.section	.rodata.map_aname.19,"aMS",@progbits,1
 	.type	.L.map_aname.19, @object
 .L.map_aname.19:
-	.asciz	"Xamarin.Android.Support.Compat"
-	.size	.L.map_aname.19, 31
+	.asciz	"Xamarin.Android.Support.DrawerLayout"
+	.size	.L.map_aname.19, 37
 
 	.section	.rodata.map_aname.20,"aMS",@progbits,1
 	.type	.L.map_aname.20, @object
 .L.map_aname.20:
-	.asciz	"Xamarin.Android.Support.DrawerLayout"
-	.size	.L.map_aname.20, 37
+	.asciz	"Xamarin.Forms.Platform.Android"
+	.size	.L.map_aname.20, 31
 
 	.section	.rodata.map_aname.21,"aMS",@progbits,1
 	.type	.L.map_aname.21, @object

@@ -10,7 +10,7 @@
                               SizeChanged="mediaPlayer_SizeChanged"
                               AreTransportControlsEnabled="True"
                               AutoPlay="True"
-                              HeightRequest="300"
+                              HeightRequest="250"
                               />
         <Button Text="Hello" x:Name="Test"/>
     </StackLayout>

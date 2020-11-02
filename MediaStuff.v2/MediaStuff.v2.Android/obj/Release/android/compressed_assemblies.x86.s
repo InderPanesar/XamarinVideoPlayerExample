@@ -61,7 +61,7 @@
 
 	/* 6: FormsViewGroup.dll */
 	/* uncompressed_file_size */
-	.long	14336
+	.long	15360
 	/* loaded */
 	.byte	0
 	/* data */
@@ -79,7 +79,7 @@
 
 	/* 8: MediaStuff.v2.Android.dll */
 	/* uncompressed_file_size */
-	.long	230912
+	.long	231424
 	/* loaded */
 	.byte	0
 	/* data */
@@ -97,7 +97,7 @@
 
 	/* 10: Mono.Android.dll */
 	/* uncompressed_file_size */
-	.long	2105856
+	.long	2156032
 	/* loaded */
 	.byte	0
 	/* data */
@@ -520,7 +520,7 @@
 
 	/* 57: Xamarin.Forms.Core.dll */
 	/* uncompressed_file_size */
-	.long	1098752
+	.long	1191424
 	/* loaded */
 	.byte	0
 	/* data */
@@ -529,7 +529,7 @@
 
 	/* 58: Xamarin.Forms.Platform.Android.dll */
 	/* uncompressed_file_size */
-	.long	753664
+	.long	792064
 	/* loaded */
 	.byte	0
 	/* data */
@@ -538,7 +538,7 @@
 
 	/* 59: Xamarin.Forms.Platform.dll */
 	/* uncompressed_file_size */
-	.long	127104
+	.long	130952
 	/* loaded */
 	.byte	0
 	/* data */
@@ -547,7 +547,7 @@
 
 	/* 60: Xamarin.Forms.Xaml.dll */
 	/* uncompressed_file_size */
-	.long	102912
+	.long	102400
 	/* loaded */
 	.byte	0
 	/* data */
@@ -556,7 +556,7 @@
 
 	/* 61: mscorlib.dll */
 	/* uncompressed_file_size */
-	.long	2052096
+	.long	2053632
 	/* loaded */
 	.byte	0
 	/* data */

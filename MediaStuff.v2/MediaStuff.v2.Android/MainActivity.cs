@@ -1,14 +1,9 @@
-﻿using System;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
 using System.Threading.Tasks;
 using Android.Content;
-using Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat;
 using MediaStuff.v2.Droid.FormsVideoLibrary;
 using Android.Preferences;
 
@@ -74,14 +69,10 @@ namespace MediaStuff.v2.Droid
         }
 
         public override void OnBackPressed()
-        {
-            ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
-
-            if (prefs.GetBoolean("isFullscreen", false))
+        {            
+            if (VideoPlayerRenderer.isFullscreen == true)
             {
-                ISharedPreferencesEditor editor = prefs.Edit();
-                editor.PutBoolean("backHit", true);
-                editor.Apply();
+                VideoPlayerRenderer.isBackPressed = true;
             }
             else
             {

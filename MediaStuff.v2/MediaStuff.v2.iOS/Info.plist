@@ -10,8 +10,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -35,15 +33,15 @@
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>NSAppTransportSecurity</key>
-    		<dict>
-        		<key>NSAllowsArbitraryLoads</key>
-        		<true/>
-       			<key>NSExceptionDomains</key>
-        		<true/>
-        		<key>NSExceptionAllowsInsecureHTTPLoads</key>
-        		<true/>
-        		<key>NSIncludesSubdomains</key>
-        		<true/>
-    		</dict>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<true/>
+		<key>NSExceptionAllowsInsecureHTTPLoads</key>
+		<true/>
+		<key>NSIncludesSubdomains</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
